@@ -2,7 +2,7 @@
   "name": "graphiql-sessionist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://127.0.0.1/graphql",
+  "homepage": "http://127.0.0.1/graphiql",
   "dependencies": {
     "graphiql": "^0.11.11",
     "graphql": "^0.13.2",

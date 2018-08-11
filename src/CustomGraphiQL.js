@@ -10,9 +10,8 @@ let credentialinputs;
 class CustomGraphiQL extends Component {
 
   fetcher(graphQLParams) {
-    //return fetch(window.location.origin + '/graphql', {
 
-    const url = 'http://localhost:4000/graphql';
+    const url = window.location.origin + '/graphql';
     const path = url.replace(/^[^/]*\/[^/]*\/[^/]*\//, '/');
     const method = 'POST';
     const body = JSON.stringify(graphQLParams);
@@ -21,7 +20,7 @@ class CustomGraphiQL extends Component {
 
     if (credentialinputs.state.keyId === '') {
 
-      return fetch('http://localhost:4000/graphql', {
+      return fetch(url, {
         method,
         headers: { 'Content-Type': 'application/json' },
         body
