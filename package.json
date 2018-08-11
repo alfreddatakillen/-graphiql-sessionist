@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "graphiql": "^0.11.11",
+    "graphql": "^0.13.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "sessionistheader": "^0.1.13"
   },
   "scripts": {
     "start": "react-scripts start",
