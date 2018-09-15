@@ -15,3 +15,12 @@ app.use('/graphql', graphql.middleware);
 app.use('/graphiql', express.static(__directory + '/node_modules/graphiql-sessionist/build'));
 ```
 
+## How to build
+
+```
+npm i yarn
+node_modules/.bin/yarn
+node_modules/.bin/yarn build
+```
+
+
