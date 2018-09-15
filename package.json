@@ -1,6 +1,6 @@
 {
   "name": "graphiql-sessionist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://127.0.0.1/graphiql",
   "devDependencies": {
     "graphiql": "^0.11.11",
