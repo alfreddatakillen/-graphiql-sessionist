@@ -18,7 +18,7 @@ app.use('/graphiql', express.static(__directory + '/node_modules/graphiql-sessio
 ## How to build
 
 ```
-npm i yarn
+npm i -D yarn
 node_modules/.bin/yarn
 node_modules/.bin/yarn build
 ```
